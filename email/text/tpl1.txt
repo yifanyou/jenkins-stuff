@@ -1,0 +1,27 @@
+Default Subject：构建通知:$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!
+
+Default Content：
+
+(本邮件是程序自动下发的，请勿回复！)
+
+项目名称：${PROJECT_NAME}
+
+构建编号：${BUILD_NUMBER}
+
+svn版本号：${SVN_REVISION}
+
+构建状态：${BUILD_STATUS}
+
+触发原因：${CAUSE}
+
+构建日志：${BUILD_LOG}
+
+失败的测试：${FAILED_TESTS}
+
+测试数量：${TEST_COUNTS}
+
+构建日志地址：${BUILD_URL}console
+
+构建地址：${BUILD_URL}
+
+变更集:${JELLY_SCRIPT,template="text"}
