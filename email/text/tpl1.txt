@@ -8,8 +8,6 @@ Default Content：
 
 构建编号：${BUILD_NUMBER}
 
-svn版本号：${SVN_REVISION}
-
 构建状态：${BUILD_STATUS}
 
 触发原因：${CAUSE}
@@ -17,8 +15,6 @@ svn版本号：${SVN_REVISION}
 构建日志：${BUILD_LOG}
 
 失败的测试：${FAILED_TESTS}
-
-测试数量：${TEST_COUNTS}
 
 构建日志地址：${BUILD_URL}console
 
